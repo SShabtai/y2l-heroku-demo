@@ -17,7 +17,7 @@ num_selected_items = 0
 ## Your code goes here!  ##
 @app.route('/') 
 def home():
-	return render_template('home.html', items=get_8_random_items())
+	return 'Hello Shai' # render_template('home.html', items=get_8_random_items())
 		
 @app.route('/shopitem/<int:id>', methods=['GET', 'POST']) 
 def shopitem(id):
