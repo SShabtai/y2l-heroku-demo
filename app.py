@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request
-from flask import redirect, url_for, jsonify 
-from database import *
-from models import *
+#from flask import redirect, url_for, jsonify 
+#from database import *
+#from models import *
 
-import random 
+#import random 
 
 app = Flask(# Create a flask app
 	__name__,
